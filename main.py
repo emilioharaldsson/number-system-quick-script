@@ -1,5 +1,6 @@
 import sys
 import os
+from fretboard import FRETBOARD
 
 def clean_up_input(key_input):
     if key_input and key_input[0].isalnum():
@@ -69,6 +70,7 @@ def generate_output(note):
     chords_with_positions = get_chord_positions(note)
     for i in range(len(chords_with_positions)):
         print(f"{reference[i]} {type_reference[sum(chords_with_positions[i])]} - {chords_with_notes[i]}")
+    
 
 
 if __name__ == "__main__":
