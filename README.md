@@ -1,7 +1,6 @@
 
 About
-
-======
+=====
 
 This python script provides all the chords in the number system of a key based in
 the major scale. If set up as instructed, the script will provide a quick way to 
@@ -9,8 +8,8 @@ learn the confines of their current key for writting/composing.
 
 
 Requirements
+============
 
-------------
 
 * Python 3.6
 * sys library 
@@ -53,7 +52,7 @@ export PATH="/usr/local/bin/python:$PATH"
 
 
 To Run
-
+======
 ------
 
 Simply open a terminal and type "run_chords" or whatever
